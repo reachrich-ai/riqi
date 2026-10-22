@@ -22,8 +22,8 @@ RiQi 是 ReachRich 的 A 股投研助手，用于整理公司研究材料、核�
 - [向 RiQi 提出一个好问题](https://docs.reachrich.ai/riqi/ask.html)
 - [完成一家公司研究的基本流程](https://docs.reachrich.ai/workflows/company-study.html)
 - [用 RiQi 做 A 股公司研究](https://riqi.ai/research/a-share-company-research.html)
+- [因子验证与样本外研究](https://reachrich.ai/research/a-share-factor-validation.html)
 
-RiQi 与
-- [因子验证与样本外研究](https://reachrich.ai/research/a-share-factor-validation.html) ReachRich 属于同一产品体系。本仓库提供介绍与研究资料，不是产品后端或公开交易执行服务。
+RiQi 与 ReachRich 属于同一产品体系。本仓库提供介绍与研究资料，不是产品后端或公开交易执行服务。
 
 Powered by ReachRich
