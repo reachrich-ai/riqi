@@ -13,8 +13,8 @@ Include the company and security identifier, research question, observation peri
 - [Ask a useful research question](https://docs.reachrich.ai/riqi/ask.html)
 - [A company-research workflow](https://docs.reachrich.ai/workflows/company-study.html)
 - [Company research with RiQi](https://riqi.ai/research/a-share-company-research.html)
+- [Factor validation and out-of-sample research](https://reachrich.ai/research/a-share-factor-validation.html)
 
-T
-- [Factor validation and out-of-sample research](https://reachrich.ai/research/a-share-factor-validation.html)he linked guides are currently in Chinese. RiQi is part of the ReachRich product family. This repository contains product information and research resources, not the product backend or a public trade-execution service.
+The linked guides are currently in Chinese. RiQi is part of the ReachRich product family. This repository contains product information and research resources, not the product backend or a public trade-execution service.
 
 Powered by ReachRich
