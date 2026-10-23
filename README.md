@@ -1,68 +1,76 @@
-<p align="center">
-  <a href="https://riqi.ai/">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://reachrich.ai/icons/riqi-dark-180.png">
-      <img src="https://reachrich.ai/icons/riqi-light-180.png" alt="RiQi" width="64" height="64">
-    </picture>
-  </a>
-</p>
+<a href="https://riqi.ai/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://reachrich.ai/icons/riqi-dark-180.png">
+    <img align="right" src="https://reachrich.ai/icons/riqi-light-180.png" alt="RiQi" width="64" height="64">
+  </picture>
+</a>
 
-<h1 align="center">RiQi</h1>
+# RiQi
 
-<p align="center">面向 A 股研究的 AI 助手</p>
+**面向 A 股研究的 AI 助手**
 
-<p align="center">
-  <a href="https://riqi.ai/"><strong>打开 RiQi</strong></a> ·
-  <a href="https://reachrich.ai/riqi">产品介绍</a> ·
-  <a href="https://docs.reachrich.ai/">使用手册</a> ·
-  <a href="README.en.md">English</a>
-</p>
+[打开 RiQi](https://riqi.ai/) · [产品介绍](https://reachrich.ai/riqi) · [使用手册](https://docs.reachrich.ai/) · [English](README.en.md)
 
----
+把研究问题和相关资料放进同一个会话。RiQi 帮助你梳理公司信息、讨论经营变化，并围绕回答中的依据继续追问。之后有新公告或新的想法，可以回到原会话接着研究。
 
-围绕公司、行情和研究资料展开对话。在同一个会话中补充材料、比较解释、修正判断，再回到已有记录继续研究。
+## 先试一个具体问题
 
-RiQi 是 [ReachRich](https://github.com/reachrich-ai/reachrich) 的对话式研究工作区：ReachRich 提供市场与筛选工具，RiQi 用于讨论研究问题和整理后续工作。
+打开 [RiQi](https://riqi.ai/)，按页面提示登录并进入“新分析”。准备一份希望讨论的公开年报资料，将相关内容与问题一起提供：
 
-## 可以从哪些任务开始
+```text
+请根据我提供的年报资料，
+比较营业收入和经营活动现金流的变化。
 
-| 研究任务 | 用法 |
-| :--- | :--- |
-| 研究一家公司 | 明确公司、观察期限与核心问题，结合提供的公告或财务资料展开分析 |
-| 检查一项判断 | 针对回答中的数字、引用或假设继续追问，补充证据与不同解释 |
-| 跟进已有研究 | 回到原会话，说明新材料及日期，区分本次变化与此前判断 |
+研究范围：最近两个报告期。
+请列出对应数值、单位和出处，
+解释两者的变化是否一致。
+区分报告事实与分析，
+列出还需核实的问题。
+```
 
-## 第一次使用
+更多操作说明见[提问指南](https://docs.reachrich.ai/riqi/ask.html)。
 
-1. 打开 [RiQi](https://riqi.ai/)，按页面提示登录，进入“新分析”。
-2. 说明研究对象、问题与时间范围，提供本次希望讨论的材料。
-3. 阅读回答后，围绕具体依据追问；下一次有新资料时，回到原会话继续。
+读完回答，继续问一个更具体的问题：
 
-例如，讨论一份年报时，可以这样写：
+> 你提到应收账款变化可能影响现金流。请指出对应资料，并说明还有哪些解释需要排查。
 
-> 请根据我提供的这份年报，分析这家公司营业收入与经营活动现金流的变化。标明对应报告期和资料出处，区分报告披露的信息与你的解释，并列出需要进一步核实的问题。
+有了新的季报，再回到同一会话补充资料和报告期，继续比较此前的判断。
 
-[更多提问示例与操作说明](https://docs.reachrich.ai/riqi/ask.html)。
+## 在一个会话里完成研究
 
-## 按使用步骤查手册
+### 围绕公司整理资料
 
-| 步骤 | 指南 |
-| :--- | :--- |
-| 准备问题 | [向 RiQi 提出一个好问题](https://docs.reachrich.ai/riqi/ask.html) |
-| 理解回答 | [检查数字、引用与分析依据](https://docs.reachrich.ai/riqi/read-answer.html) |
-| 继续追问 | [补充材料与修正结论](https://docs.reachrich.ai/riqi/follow-up.html) |
-| 重开研究 | [继续已有研究与会话](https://docs.reachrich.ai/riqi/history.html) |
-| 完整流程 | [完成一家公司研究](https://docs.reachrich.ai/workflows/company-study.html) |
+先明确公司、观察期限和核心问题，再讨论年报、公告或其他已提供的资料。把材料出处留在问题中，便于之后核对。
+
+[公司研究流程](https://docs.reachrich.ai/workflows/company-study.html)
+
+### 对回答继续追问
+
+检查回答中的数字、报告期、引用与假设。遇到不同解释，要求逐项说明依据；资料不足时，先明确下一步要找什么。
+
+[阅读分析回答](https://docs.reachrich.ai/riqi/read-answer.html) · [追问与修正](https://docs.reachrich.ai/riqi/follow-up.html)
+
+### 回到原研究继续
+
+打开已有会话，补充新资料及日期，说明这次需要比较的变化。无关公司或不同任务另开会话，让研究记录保持清楚。
+
+[继续已有研究与会话](https://docs.reachrich.ai/riqi/history.html)
+
+## RiQi 与 ReachRich
+
+[ReachRich](https://github.com/reachrich-ai/reachrich) 提供行情、资讯与股票筛选工具；RiQi 承接围绕具体问题展开的对话与资料讨论。两者共用统一手册，按当前账号开放相应功能。
+
+要先看市场、查资讯或建立候选清单，从 [ReachRich](https://reachrich.ai/) 开始；已经有问题和材料，直接进入 [RiQi](https://riqi.ai/)。
 
 ## 研究资料
 
 - [用 RiQi 做 A 股公司研究](https://riqi.ai/research/a-share-company-research.html)：从公告材料到持续追问。
-- [因子验证与样本外研究](https://reachrich.ai/research/a-share-factor-validation.html)：检查过拟合与验证区间。
+- [因子验证与样本外研究](https://reachrich.ai/research/a-share-factor-validation.html)：记录研究尝试，检查过拟合与验证区间。
 
-## 账户与帮助
+## 使用帮助
 
-[登录与账号](https://docs.reachrich.ai/start/login.html) · [功能访问](https://docs.reachrich.ai/help/access.html) · [问题反馈](https://reachrich.ai/support)
+[完整手册](https://docs.reachrich.ai/) · [登录与账号](https://docs.reachrich.ai/start/login.html) · [功能访问](https://docs.reachrich.ai/help/access.html) · [问题反馈](https://reachrich.ai/support)
 
-当前以 A 股研究为主，可用功能按账号权限提供。本仓库仅发布产品介绍与公开指南，不包含产品核心代码或私有策略。
+当前以 A 股研究为主，功能按账号权限提供。本仓库维护产品介绍与公开指南，不包含产品核心代码、私有策略或密钥。
 
 **Powered by ReachRich**
