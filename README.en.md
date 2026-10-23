@@ -18,15 +18,14 @@ Bring your research question and documents into one conversation. Use RiQi to or
 Open [RiQi](https://riqi.ai/), follow the sign-in prompts and start a new analysis. Prepare the public annual-report material you want to discuss, and provide the relevant content with your question:
 
 ```text
-Using the annual-report material
-I provide, compare changes in
-revenue and operating cash flow
-over the last two reporting periods.
+Use the report I provide.
+Compare revenue and operating
+cash flow over two periods.
 
-List the figures, units and sources.
-Explain whether they moved together.
-Separate reported facts from analysis.
-List the questions still to check.
+List figures, units, sources.
+Explain the differences.
+Separate facts from analysis.
+List questions to check.
 ```
 
 See the [question guide](https://docs.reachrich.ai/riqi/ask.html) for operating steps.
