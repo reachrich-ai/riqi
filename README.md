@@ -11,6 +11,13 @@ RiQi 是 [ReachRich](https://github.com/reachrich-ai/reachrich) 的 AI 投研助
 
 [打开 RiQi](https://riqi.ai/) · [产品介绍](https://reachrich.ai/riqi) · [使用手册](https://docs.reachrich.ai/) · [English](README.en.md)
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="riqi-workspace-dark.png">
+  <img src="riqi-workspace-light.png" alt="RiQi 新分析工作区：研究问题、资料附件与研究选项" width="760">
+</picture>
+
+<sub>RiQi 新分析工作区。提出市场问题、附上研究资料，并按需要调整研究选项。</sub>
+
 ## 快速开始
 
 1. 打开 RiQi，按提示登录，进入“新分析”。

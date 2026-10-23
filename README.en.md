@@ -11,6 +11,13 @@ RiQi is the AI research assistant from [ReachRich](https://github.com/reachrich-
 
 [Open RiQi](https://riqi.ai/) · [Product overview](https://reachrich.ai/riqi) · [Documentation](https://docs.reachrich.ai/) · [简体中文](README.md)
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="riqi-workspace-dark.png">
+  <img src="riqi-workspace-light.png" alt="RiQi new-analysis workspace: research questions, supporting files and research options" width="760">
+</picture>
+
+<sub>RiQi's new-analysis workspace. Start with a market question, attach research material and choose research options.</sub>
+
 ## Get started
 
 1. Open RiQi, follow the sign-in prompts and start a new analysis.
